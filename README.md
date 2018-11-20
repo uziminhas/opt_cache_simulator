@@ -4,6 +4,9 @@
 
 Java-based simulator of how cache works using the OPT / optimal replacement policy. Unlike long-term storage spaces, cache consists of only a limited amount of space that consequently requires one of the addresses to be replaced with a newly accessed address that is not in the cache. If an address requested by a reference is already in cache, the reference is considered as a **cache hit**; otherwise, it is considered as cache miss. A new address will need to be added into the cache when there is a **cache miss**. If there is still unused space in cache, it is straightforward to add. If the cache is already full, we will have to select one existing address from cache to replace.
 
+<p align="center">
+  <img src="https://github.com/uziminhas/opt_cache_simulator/blob/master/opt_example.png" width="575">
+</p>
 
 
 ## MyPriorityQueue.java
